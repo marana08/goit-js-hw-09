@@ -1,0 +1,51 @@
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 1128px;
+    margin: 0 auto;
+    padding: 24px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.gallery-image {
+    max-width: 360px;
+    height: 200px;
+}
+
+.gallery-image:hover {
+    max-width:376px;
+    height: 208px;
+}
+
+.simple-lightbox,
+.sl-overlay {
+    background-color: rgba(46, 47, 66, 0.8) 
+}
+
+.sl-navigation button,
+.sl-close {
+    color: #ffffff !important;
+    opacity: 0.8;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.sl-navigation button:hover,
+.sl-close:hover {
+    opacity: 1;
+}

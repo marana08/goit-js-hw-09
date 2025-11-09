@@ -1,0 +1,85 @@
+.back-link {
+    display: inline-block;
+    margin-bottom: 12px;
+    font-size: 14px;
+    color: #2e2f42;
+    border: 1px solid #2e2f42;
+    border-radius: 6px;
+    padding: 4px 10px;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.back-link:hover {
+    background-color: #2e2f42;
+    color: #ffffff;
+}
+
+.main-title {
+    font-size: 18px;
+    font-weight: 600;
+    text-align: left;
+    margin-bottom: 16px;
+}
+
+.feedback-form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.feedback-form label {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    color: #2e2f42;
+    width: 360px;
+    text-align: left;
+}
+
+.feedback-form input,
+.feedback-form textarea {
+    margin-top: 6px;
+    padding: 8px 12px;
+    font-size: 14px;
+    border: 1px solid #808080;
+    border-radius: 4px;
+    outline: none;
+    width: 100%;
+    transition: border-color 0.2s, box-shadow 0.2s;
+    resize: none;
+}
+
+.feedback-form input,
+.feedback-form textarea {
+    border-color: #808080;
+}
+
+.feedback-form input:hover,
+.feedback-form textarea:hover {
+    border-color: #000000;
+}
+
+.feedback-form input:focus,
+.feedback-form textarea:focus {
+    border-color: #808080;
+}
+
+.feedback-form button {
+    align-self: flex-start;
+    padding: 8px 18px;
+    font-size: 14px;
+    font-weight: 500;
+    border: none;
+    border-radius: 6px;
+    background-color: #4E75FF;
+    color: #ffffff;
+    transition: background-color 0.2s, box-shadow 0.2s;
+}
+
+.feedback-form button {
+    background-color: #4E75FF;
+}
+
+.feedback-form button:hover {
+    background-color: #6C8CFF;
+}
